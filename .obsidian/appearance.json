@@ -1,3 +1,7 @@
 {
-  "accentColor": "#ffb83d"
+  "accentColor": "#ffb83d",
+  "cssTheme": "Minimal",
+  "interfaceFontFamily": "Bodoni 72 Oldstyle",
+  "baseFontSize": 16,
+  "nativeMenus": false
 }
