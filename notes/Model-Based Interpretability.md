@@ -10,7 +10,7 @@ If the data is sparse than the user can also limit the amount on non-zero parame
 
 It is however important to verify the [[model stability]] and [[data stability]] of a model with the implemented sparsity, as these characteristic can be impacted by it.
 
-Because a model is in a more simple form after implementing sparsity it often yields higher descriptive accuracy, while it can increase predictive accuracy at the same time. However, it can also decrease either or both types of accuracy.
+Because a model is in a more simple form after implementing sparsity it often yields higher descriptive accuracy, while it can increase predictive accuracy at the same time. However, it can also decrease either or both types of accuracy in the [[PDR Framework]].
 
 Lastly, implementations of sparsity must be performed in a targeted manner. It requires an understanding of the data-specific structures, which are impacted by endogenous, as well as exogenous factors. e.g. sample size, type, instrumentation, noise, data corruption, etc.
 ### Sparsity Methods: ([[murdoch2019]])
@@ -49,3 +49,17 @@ As mentioned before the way that a learning algorithm learns is not trivial and 
 
 ## Model-Based Feature Engineering
 Both [[unsupervised learning]] and [[dimensionality reduction]] will yield interpretable features. Both are also automatic ways to do so. Unsupervised methods include clustering, matrix factorisation, and dictionary learning. All these three aim to process unlabelled data and output a description of their composition. dimensionality reduction methods focus on reducing the data to a reduced space, such that it presents itself in a more limited form. In most cases this means that some information is lost, but most of the structure of the data is maintained. However, the reduced features of the data rarely represent anything interpretable to humans and it is thus tricky to use such a method to structure data by the desired features. Methods that can do this include [[principle component analysis]], [[independent component analysis]], and [[canonical correlation analysis]]. However, using these methods some extra steps can be made that will possible yield a few interpretable features.
+
+# Building accurate and interpretable models
+**Model Based interpretability is by neture strong at descriptive accurace. Hence, If it can acchieve good predictive accuracy and relevancy, it is preferable.**
+
+**Sometimes model based and [[post-hoc interpretability]] can be combined for better results**.
+
+In cases when model-based interpretability cannot provide good predictive accuracy, the current state of the art requires users to abandon model-based methods. Thus for [[Model-Based Interpretability]] this is the most important direction of research.
+promising examples: [[murdoch2019]](7,40,91).
+
+## Tools for feature engineering
+More meaningful and informative features can vastly improve a dataset's learnability. Hence, this is likely to yield good descriptive interpretability.  Hence it is important to have tools for exploratory data-analysis. Another important factor is domain knowledge. Tools to enhance these abilities are:
+- interactive tools (92-94)
+- visualisations (95-97)
+- data explaoration tools (98, 99)

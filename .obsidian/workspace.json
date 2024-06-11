@@ -8,59 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4454635a68310c2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/PDR desiderata.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94db7d7e5e60f3ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/model-based interpretability.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ddfcb585cbc3ffa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/post-hoc interpretability.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6bff87e1844a1683",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/post-hoc interpretability.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9728af93d4dc0f58",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "notes/PDR Framework.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd2703ea0c950a0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Model-Based Interpretability.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -69,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/post-hoc interpretability.md",
+                "file": "notes/Model-Based Interpretability.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +63,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -142,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/post-hoc interpretability.md",
+                "file": "notes/Model-Based Interpretability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/post-hoc interpretability.md",
+                "file": "notes/Model-Based Interpretability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/post-hoc interpretability.md"
+                "file": "notes/Model-Based Interpretability.md"
               }
             }
           }
@@ -203,15 +171,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74ebe418c4e0a7d2",
+  "active": "cd2703ea0c950a0a",
   "lastOpenFiles": [
+    "notes/PDR Framework.md",
+    "papers/Ribeiro2016.md",
+    "notes/Model-Based Interpretability.md",
+    "notes/list of rules.md",
+    "notes/model stability.md",
     "notes/post-hoc interpretability.md",
-    "notes/model-based interpretability.md",
-    "notes/PDR desiderata.md",
+    "notes/Interpretable Machine Learning.md",
     "papers/murdoch2019.md",
     "notes/matrix factorisation.md",
     "notes/principle component analysis.md",
-    "notes/interpretability.md",
     "notes",
     "templates/paper.md",
     "papers",

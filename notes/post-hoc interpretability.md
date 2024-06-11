@@ -55,5 +55,21 @@ The most popular approach to prediction-level interpretation relies on weiging i
 Despite recent advances is this area, there are concerns about the descriptive accuracy of theme methods. In particular, [[murdoch2019]](80) shows that many popular methods
 produce similar interpretations for a trained model versus a randomly initialized one and are qualitatively very similar to an edge detector. Moreover, it has been shown that some feature importance scores for CNNs are doing (partial) image recovery which is unrelated to the network decisions [[murdoch2019]](81).
 
+### Alternatives to feature importances
+Feature importance limitations [[murdoch2019]])(80,82)
+E.g. they are unable to capture algorithms learning interactions between variables. Work is still being done to fully chart these limitations. These methods focus on explicitly capturing and displaying the interactions learned by a neural network (83, 84). Alternative forms of interpretations exist, such as textual explanations (85), influential data points (86), and analyzing nearest neighbors (87,88).
 
+# What a black-box interpretation looks like
+**Most of post-hoc interpretability is a younger field of study than model-based interpretability** Hence, many fundamental ideas are not yet fully understood. Two of the most important question left are:
+- What does an interpretation of a ML model look like
+- how can PH interpretations be used to improve prediction accuracy.
 
+Currently, using post-hoc interpretations come at a high risk of ruining any one of the desiderata in the [[PDR Framework]]
+
+The main way that researchers present their interpretations are currently:
+- feature heatmaps
+- feature hierarchies
+- identifying important elements in the data set
+However, in all of these methods the interpretation does not clearly indicate what the model has learned. It is unclear if these interpretations could ever fully capture the model's behaviour. How to close this gap remains a problem in question.
+
+Sometimes, post hoc analysis can verify the incorrectness of a model. Given the challenges surrounding simply generating post hoc interpretations, research on their uses has been limited (100, 101), particularly in modern deep learning models. However, as the field of post hoc interpretations continues to mature, this could be an exciting avenue for researchers to increase the predictive accuracy of their models by exploiting prior knowledge, independently of any other benefits of interpretations.
