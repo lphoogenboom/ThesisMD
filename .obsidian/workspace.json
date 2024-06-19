@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Model-Based Interpretability.md",
+                "file": "notes/convolutional neural networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e69c882c94e39377",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Local Interpretable Model-Agnostic Explanations.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "027f66d3b3fdecb5",
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Model-Based Interpretability.md",
+                "file": "notes/Local Interpretable Model-Agnostic Explanations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Model-Based Interpretability.md",
+                "file": "notes/Local Interpretable Model-Agnostic Explanations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Model-Based Interpretability.md"
+                "file": "notes/Local Interpretable Model-Agnostic Explanations.md"
               }
             }
           }
@@ -163,6 +176,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-day-and-night:Toggle Theme": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -171,16 +185,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd2703ea0c950a0a",
+  "active": "e69c882c94e39377",
   "lastOpenFiles": [
+    "papers/murdoch2019.md",
     "notes/PDR Framework.md",
-    "papers/Ribeiro2016.md",
+    "notes/deep neural networks.md",
+    "notes/Local Interpretable Model-Agnostic Explanations.md",
+    "notes/convolutional neural networks.md",
     "notes/Model-Based Interpretability.md",
+    "papers/Ribeiro2016.md",
     "notes/list of rules.md",
     "notes/model stability.md",
     "notes/post-hoc interpretability.md",
     "notes/Interpretable Machine Learning.md",
-    "papers/murdoch2019.md",
     "notes/matrix factorisation.md",
     "notes/principle component analysis.md",
     "notes",
