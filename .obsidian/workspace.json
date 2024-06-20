@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "027f66d3b3fdecb5",
@@ -176,21 +175,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-day-and-night:Toggle Theme": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-day-and-night:Toggle Theme": false
     }
   },
   "active": "e69c882c94e39377",
   "lastOpenFiles": [
+    "notes/Local Interpretable Model-Agnostic Explanations.md",
+    "notes/LIME.md",
+    "notes/superpixels.md",
     "papers/murdoch2019.md",
     "notes/PDR Framework.md",
     "notes/deep neural networks.md",
-    "notes/Local Interpretable Model-Agnostic Explanations.md",
     "notes/convolutional neural networks.md",
     "notes/Model-Based Interpretability.md",
     "papers/Ribeiro2016.md",
